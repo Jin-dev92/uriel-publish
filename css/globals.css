@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400|Noto+Sans:400,700");
+@font-face {
+  font-family: "Spoqa Han Sans Neo-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Spoqa Han Sans Neo Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "SF Pro Text-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/FontsFree-Net-SFProText-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SF Pro Text-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Spoqa Han Sans Neo-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Spoqa Han Sans Neo Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Apple SD Gothic Neo-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AppleSDGothicNeoM.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Spoqa Han Sans Neo-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/SpoqaHanSansNeo-Light.otf") format("opentype");
+}
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/626a289133baf4080e153b49.601be66fea43fe702a4efc53.uxyD4Ia.hcp.png");
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
